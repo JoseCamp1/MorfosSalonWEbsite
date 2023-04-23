@@ -1,0 +1,134 @@
+:root{
+    --color-body:#9BA4B5;
+    --color-navbar-and-footer: #111111;
+    --color-hover-hipervínculos:#00cdff;
+    --color-texto-nav-footer:#9BA4B5;
+    --color-blanco-fondo-body: #f7f7f7;
+    --font-family-navbar-footer:'Roboto', sans-serif;
+    --font-family-h:'Alfa Slab One', cursive;
+    --font-size-navbar-footer: 18px;
+    --font-weight-navbar-footer: 400;
+    --color-negro: #111111;
+    --color-blanco:#f7f7f7;    
+    --color-textos:#f7f7f7;
+    --color-textos-sombras:#f7f7f7;
+    --color-textos-bordes:#00cdff;
+    --color-títulos:#00cdff;
+    --color-títulos-sombras:#0671B6;
+    --color-títulos-bordes:#00cdff;
+}
+body{
+    background-color: var(--color-negro);
+}
+
+/* navbar */
+.bg-gradient{
+    background-color: var(--color-navbar-and-footer);
+}
+
+.bg-gradient a{
+    font-family: var(--font-family-navbar-footer);
+    color: var(--color-texto-nav-footer);
+    font-size: var(--font-size-navbar-footer);
+    font-weight: var(--font-weight-navbar-footer);
+
+}
+
+.logo{
+    width: 60px;
+    height: 40px;
+}
+
+p,a,span,strong{
+    font-family: var(--font-family-navbar-footer);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--font-family-h);
+    text-transform: uppercase;
+}
+
+/* navbar */
+
+/* carousel */
+
+.carousel-inner{
+    height: 800px;
+}
+
+/* carousel */
+
+/* nosotros */
+.nosotros{
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.nosotros img{
+    width: 400px;
+}
+
+.nosotros h1, .nosotros p{
+    color: var(--color-textos);
+}
+
+.nosotros .presentación{
+    text-align: right;
+}
+
+.nosotros .row{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+
+    .carousel-inner{
+        height: 300px;
+    }
+
+    .nosotros{
+        padding-bottom: 45px;
+        padding-top: 45px;
+    }
+
+    .nosotros .presentación{
+        text-align: center;
+    }
+
+    .nosotros img{
+        width: 80vh;
+        margin-left: 10vh;
+    }
+}
+/* nosotros */
+
+/* Servicios */
+.servicios{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #212A3E;
+    background-image: url('/image/background.jpg');    
+    background-attachment: fixed;
+    
+
+
+}
+
+.card-group{
+    margin: 0 auto !important;
+}
+
+.card-group .card{
+    box-shadow: 4px 0px 15px #000;
+    
+}
+
+.card-img-top{
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Servicios */
