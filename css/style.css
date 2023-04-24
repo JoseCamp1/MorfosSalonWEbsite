@@ -17,6 +17,8 @@
     --color-títulos-sombras:#0671B6;
     --color-títulos-bordes:#00cdff;
 }
+!
+
 body{
     background-color: var(--color-negro);
 }
@@ -53,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
 /* carousel */
 
 .carousel-inner{
-    height: 800px;
+    height: 600px;
 }
 
 /* carousel */
@@ -129,3 +131,17 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* Servicios */
+
+#galería .col-lg-4{
+    padding: 25px;
+    background-color: var(--color-negro);
+}
+
+#galería img{
+    width: 100%;
+}
+
+#galería img:hover{
+    border: 3px solid #f7f7f7;
+}
+
