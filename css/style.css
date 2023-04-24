@@ -159,7 +159,14 @@ h1,h2,h3,h4,h5,h6{
 /* contacto */
 #contacto{
     margin-top: 50px;
+    background-color: var(--color-negro);
 }
+
+#contacto h2,p{
+    color: var(--color-blanco);
+}
+
+
 /* contacto */
 
 

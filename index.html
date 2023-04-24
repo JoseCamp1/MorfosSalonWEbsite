@@ -35,33 +35,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="#carouselExampleAutoplaying">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#galería" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Servicios
+                            Galería
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-dark" href="#">Trabajos en uñas</a></li>
+                            <li><a class="dropdown-item text-dark" href="#cabello">Trabajos en Cabello</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item text-dark" href="#">Trabajos en Cabello</a></li>
+                            <li><a class="dropdown-item text-dark" href="#uñas">Trabajos en uñas</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item text-dark" href="#">Productos de Belleza</a></li>
+                            <li><a class="dropdown-item text-dark" href="#productos">Productos de Belleza</a></li>
                         </ul>
-                    </li>
+                    </li>                   
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
 
@@ -97,7 +97,7 @@
     <!-- carousel -->
 
     <!-- Nosotros -->
-    <div class="container-fluid nosotros ">
+    <div class="container-fluid nosotros " id="nosotros">
         <div class="row">
             <div class="col-sm presentación">
                 <h1>La Estilista</h1>
@@ -117,7 +117,7 @@
     <!-- Nosotros -->
 
     <!-- Servicios -->
-    <div class="servicios">
+    <div id="servicios" class="servicios">
         <div class="container">
 
             <div class="row">
@@ -186,52 +186,7 @@
                 
             </div>
         </div>
-        <!-- <h2 class="text-dark text-center">Servicios</h2>
-        <div class="card-group container">
-
-            <div class="card">
-                <img src="image/iconos/pintar.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Trabajos en uñas</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Amet placeat inventore porro. Atque nobis
-                        voluptate error provident accusantium, tempora quo totam est
-                        earum repellendus quod id architecto possimus molestiae?
-                        Distinctio?
-                    </p>
-                </div>
-                <a href="#" class="btn btn-outline-dark" role="button">ver mas...</a>
-            </div>
-            <div class="card">
-                <img src="image/iconos/tijeras.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Trabajos en Cabello</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Amet placeat inventore porro. Atque nobis
-                        voluptate error provident accusantium, tempora quo totam est
-                        earum repellendus quod id architecto possimus molestiae?
-                        Distinctio?
-                    </p>
-                </div>
-                <a href="#" class="btn btn-outline-dark" role="button">ver mas...</a>
-            </div>
-            <div class="card">
-                <img src="image/iconos/productos.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Productos de Belleza</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Amet placeat inventore porro. Atque nobis
-                        voluptate error provident accusantium, tempora quo totam est
-                        earum repellendus quod id architecto possimus molestiae?
-                        Distinctio?
-                    </p>
-                </div>
-                <a href="#" class="btn btn-outline-dark" role="button">ver mas...</a>
-            </div>
-        </div> -->
+        
     </div>
 
     <!-- Servicios -->
@@ -251,7 +206,7 @@
                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseOne">
-                        <h2>Trabajos en Cabello</h2>
+                        <h2 id="cabello">Trabajos en Cabello</h2>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
@@ -311,7 +266,7 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseTwo">
-                        <h2>Trabajos en Uñas</h2>
+                        <h2 id="uñas">Trabajos en Uñas</h2>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
@@ -410,7 +365,7 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseThree">
-                        <h2>Productos</h2>
+                        <h2 id="productos">Productos</h2>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
@@ -473,25 +428,31 @@
 
     <!-- Galería -->
 
-    <!-- contacto -->
-    <section id="contacto" class="container contact section-padding">
+    <!-- contacto -->  
+    
+    <section id="contacto" class="container-fluid contact section-padding">
         
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-header text-center pb-5">
+                    <div class="section-header text-center pb-5 ">
                         <h2>Contacto</h2>
+                        <div class="container text-center">
+                            <img src="image/logo limpio.png" width="80%" height="450" alt="">
+                        </div>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing <br>   
                             elit. Aspernatur quam doloribus perspiciatis sequi                            
                         </p>
+
+                        <div class="mapa text-center">
+                            <iframe
+                            src="https://www.google.com/maps/d/embed?mid=168VdfZsopCrOZhITpnZAmRC0kus3t1A&hl=es&ehbc=2E312F"
+                            width="60%" height="480"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="container text-center">
-                <iframe src="https://www.google.com/maps/d/embed?mid=168VdfZsopCrOZhITpnZAmRC0kus3t1A&ehbc=2E312F" width="640" height="480"></iframe>
-            </div>
-
             <div class="col-md-12">
                 <div class="section-header text-center pb-1">
                     <h2>Contactenos</h2>                    
@@ -499,7 +460,7 @@
             </div>
             <div class="row m-0">
                 <div class="col-md-12 p-0 pt-4 pb-4">
-                    <form action="#" class="bg-light p-4.m-auto">
+                    <form action="#" class="bg-dark p-4.m-auto">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="mb-3">
@@ -525,8 +486,8 @@
                                 </div>
                             </div>
 
-                            <button class="btn btn-dark btn-lg btn-block mt-3" type="submit">Enviar</button>
-                            <button class="btn btn-dark btn-lg btn-block mt-3" type="reset">Borrar</button>
+                            <button class="btn btn-secondary btn-lg btn-block mt-3" type="submit">Enviar</button>
+                            <button class="btn btn-secondary btn-lg btn-block mt-3" type="reset">Borrar</button>
                         </div>
                     </form>
                 </div>
