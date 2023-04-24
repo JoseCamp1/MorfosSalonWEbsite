@@ -1,6 +1,6 @@
 :root{
     --color-body:#f7f7f7;
-    --color-navbar-and-footer: #111111;
+    --color-navbar-and-footer: #212529;
     --color-hover-hipervínculos:#00cdff;
     --color-texto-nav-footer:#f7f7f7;
     --color-blanco-fondo-body: #f7f7f7;
@@ -8,7 +8,7 @@
     --font-family-h:'Alfa Slab One', cursive;
     --font-size-navbar-footer: 18px;
     --font-weight-navbar-footer: 400;
-    --color-negro: #111111;
+    --color-negro: #212529;
     --color-blanco:#f7f7f7;    
     --color-textos:#f7f7f7;
     --color-textos-sombras:#f7f7f7;
@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6{
 
 .carousel-inner{
     height: 800px;
-    background-color: #111111;
+    background-color: var(--color-negro);
 }
 
 /* carousel */
