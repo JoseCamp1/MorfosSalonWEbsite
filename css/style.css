@@ -132,6 +132,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* Servicios */
+
+/* Galería */
 #galería{
     background-color: var(--color-negro);
     color: var(--color-blanco);
@@ -152,8 +154,12 @@ h1,h2,h3,h4,h5,h6{
     outline: 2px solid var(--color-blanco);
     outline-offset: -10px;
 }
+/* Galería */
 
-/* #galería img:hover{
-    border: 3px solid #f7f7f7;
-} */
+/* contacto */
+#contacto{
+    margin-top: 50px;
+}
+/* contacto */
+
 
