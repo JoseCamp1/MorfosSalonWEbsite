@@ -55,7 +55,8 @@ h1,h2,h3,h4,h5,h6{
 /* carousel */
 
 .carousel-inner{
-    height: 600px;
+    height: 800px;
+    background-color: #111111;
 }
 
 /* carousel */
@@ -64,6 +65,7 @@ h1,h2,h3,h4,h5,h6{
 .nosotros{
     padding-bottom: 75px;
     padding-top: 75px;
+    background-color: var(--color-negro);
 }
 
 .nosotros img{
@@ -71,7 +73,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .nosotros h1, .nosotros p{
-    color: var(--color-textos);
+    color: var(--color-blanco);
 }
 
 .nosotros .presentación{
@@ -119,8 +121,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .card-group .card{
-    box-shadow: 4px 0px 15px #000;
-    
+    box-shadow: 4px 0px 15px #000;    
 }
 
 .card-img-top{
@@ -131,17 +132,28 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* Servicios */
+#galería{
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+}
 
 #galería .col-lg-4{
-    padding: 25px;
-    background-color: var(--color-negro);
+    padding: 25px;    
+    background-image: url("../image/fondo.png");    
+    background-attachment: fixed;
 }
 
 #galería img{
     width: 100%;
+    box-shadow: 4px 0px 15px #000;    
 }
 
-#galería img:hover{
-    border: 3px solid #f7f7f7;
+.linea img{
+    outline: 2px solid var(--color-blanco);
+    outline-offset: -10px;
 }
+
+/* #galería img:hover{
+    border: 3px solid #f7f7f7;
+} */
 
