@@ -37,8 +37,8 @@ body{
 }
 
 .logo{
-    width: 60px;
-    height: 40px;
+    width: 90px;
+    height: 50px;
 }
 
 p,a,span,strong{
@@ -116,6 +116,13 @@ h1,h2,h3,h4,h5,h6{
     background-attachment: fixed;
 }
 
+.servicios-titulo p,.servicios-titulo h2{    
+    color: var(--color-blanco);
+    font-weight: bolder;
+    background-color: var(--color-negro);
+    border-radius: 5px;        
+}
+
 .card-group{
     margin: 0 auto;
 }
@@ -166,7 +173,14 @@ h1,h2,h3,h4,h5,h6{
     color: var(--color-blanco);
 }
 
+.iconos-redes{
+    color: var(--color-blanco);
+}
+
 
 /* contacto */
+
+
+
 
 
