@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6{
     .nosotros img{
         width: 80%;
         margin-left: 10%;
-    }
+    }   
 }
 /* nosotros */
 
@@ -187,8 +187,8 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     bottom: 5px;
     right: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-image: url(../image/iconos/WhatsApp-transparente.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,8 +203,8 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     bottom: 45px;
     right: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-image: url(../image/iconos/flecha.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -212,8 +212,16 @@ h1,h2,h3,h4,h5,h6{
     /* border-radius: 25%; */
     /* box-shadow: 2px 2px 20px green; */
     cursor: pointer;
-    z-index: 1000;
+    z-index: 1000;    
 }
+
+@media (max-width:767px){
+    .icono-flotante1, .icono-flotante2{
+        width: 15px;
+        height: 15px;
+    }
+}
+
 /* flotante */
 
 
