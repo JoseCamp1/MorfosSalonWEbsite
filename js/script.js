@@ -1,8 +1,8 @@
 //alerta
-document.addEventListener('DOMContentLoaded', function() {
-    var alerta = document.getElementById('alerta');
-    alerta.style.display = 'none';// oculta el elemento desde que se carga la pagina
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     var alerta = document.getElementById('alerta');
+//     alerta.style.display = 'none';// oculta el elemento desde que se carga la pagina
+// });
 
 function mostrarAlerta() {
     var alerta = document.getElementById('alerta');
