@@ -217,8 +217,8 @@ h1,h2,h3,h4,h5,h6{
 
 @media (max-width:767px){
     .icono-flotante1, .icono-flotante2{
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 }
 
