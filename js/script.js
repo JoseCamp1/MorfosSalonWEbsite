@@ -1,5 +1,5 @@
 //alerta
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener("load", function() {
     var alerta = document.getElementById('alerta');
     alerta.style.display = 'none';// oculta el elemento desde que se carga la pagina
 });
