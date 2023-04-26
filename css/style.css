@@ -183,13 +183,29 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* flotante */
-.icono-flotante {
+.icono-flotante1 {
     position: fixed;
     bottom: 5px;
     right: 5px;
     width: 40px;
     height: 40px;
     background-image: url(../image/iconos/WhatsApp-transparente.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    /* border-radius: 25%; */
+    /* box-shadow: 2px 2px 20px green; */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.icono-flotante2 {
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/iconos/flecha.png);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1000;
