@@ -114,6 +114,7 @@ h1,h2,h3,h4,h5,h6{
     background-color: #212A3E;
     background-image: url("../image/fondo.png");    
     background-attachment: fixed;
+    width: 100%;
 }
 
 .servicios-titulo p,.servicios-titulo h2{    
@@ -191,12 +192,9 @@ h1,h2,h3,h4,h5,h6{
     height: 30px;
     background-image: url(../image/iconos/WhatsApp-transparente.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 1000;
-    /* border-radius: 25%; */
-    /* box-shadow: 2px 2px 20px green; */
+    background-repeat: no-repeat;    
     cursor: pointer;
-    z-index: 1000;
+    z-index: 10;
 }
 
 .icono-flotante2 {
@@ -208,11 +206,8 @@ h1,h2,h3,h4,h5,h6{
     background-image: url(../image/iconos/flecha.png);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1000;
-    /* border-radius: 25%; */
-    /* box-shadow: 2px 2px 20px green; */
-    cursor: pointer;
-    z-index: 1000;    
+    z-index: 10;    
+    cursor: pointer;    
 }
 
 @media (max-width:767px){
