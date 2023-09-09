@@ -21,4 +21,4 @@ El objetivo principal de este proyecto es desarrollar una página web atractiva 
   
 ## Visita la Página Web
 
-Link página web en [este enlace](https://josecamp1.github.io/MorfosSalonWEbsite/).
+Link en [este enlace](https://josecamp1.github.io/MorfosSalonWEbsite/).
